@@ -24,5 +24,4 @@ function nextImage() {
 prevButton.addEventListener('click', prevImage);
 nextButton.addEventListener('click', nextImage);
 
-// Показываем первое изображение и скрываем остальные при загрузке страницы
 showImage(currentImage);
